@@ -1,0 +1,18 @@
+# requirements.txt
+# Dependencies for DhruvSapra_SpotifyStreamingAnalysis.py
+# Install with: pip install -r requirements.txt
+
+# Core data manipulation
+pandas>=2.0.0
+
+# Numerical computing (pandas/seaborn dependency, also used directly for np.triu)
+numpy>=1.24.0
+
+# Plotting backend
+matplotlib>=3.7.0
+
+# Statistical visualisation (heatmap, boxplot, histplot, scatterplot, barplot)
+seaborn>=0.12.0
+
+# Interactive web dashboard
+streamlit>=1.32.0
